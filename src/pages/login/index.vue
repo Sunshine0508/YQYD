@@ -1,6 +1,9 @@
 <template>
   <div class="wrap">
-    <div class="l-content"></div>
+    <label class="l-title">欢迎登录！</label>
+    <div class="l-content">
+      <form action=""></form>
+    </div>
   </div>
 </template>
 
@@ -19,12 +22,17 @@ export default {
   background: #8ea7e6;
   height: 100vh;
   box-sizing: border-box;
+  .l-title {
+    color: #fff;
+    font-size: 24px;
+  }
   .l-content {
     width: 410px;
     padding: 40px 50px;
-    background-color: rgb(114, 114, 127);
+    background-color: rgb(255, 255, 255);
+    opacity: 0.3;
     border-radius: 14px;
-    position: relative;
+    // position: relative;
   }
 }
 </style>
